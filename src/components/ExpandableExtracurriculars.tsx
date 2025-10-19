@@ -37,10 +37,6 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
         "Regional Winners – Buckeye Regional (2023)",
         "Buckeye Regional – Quality Award (2024)"
       ],
-      // PASTE YOUR IMAGE URLS HERE - Add multiple images for a carousel in the expanded modal!
-      // Upload to ImgBB (https://imgbb.com/) and paste the "Direct link" 
-      // To add more images: Just add more URLs to the array, separated by commas
-      // Example: images: ["url1.jpg", "url2.jpg", "url3.jpg", "url4.jpg"]
       images: [
         "https://i.imgur.com/LPTH411.jpeg",
         "https://i.imgur.com/QcrsO7X.jpeg"
@@ -59,7 +55,6 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
         "Collaboration & teamwork with 9 other youth leads",
         "Youth Engagement initiatives",
       ],
-      // Add your images here - these will appear in the modal carousel
       images: [
         "https://i.imgur.com/JrFgMji.jpeg",
         "https://i.imgur.com/2yJeHQx.jpeg",
@@ -79,26 +74,24 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
         "Mental Fortitude & Perseverance",
         "Time Management"
       ],
-      // Add your images here - these will appear in the modal carousel
       images: [
         "https://i.imgur.com/oxp4bmT.jpeg"
       ]
     },
     {
-      title: "IT Internship",
-      role: "Intern",
-      description: "IT Intern at the New Albany-Plain Local School District, assisting with managing district-issued devices, troubleshooting tech issues, and supporting day-to-day IT operations.",
+      title: "SkillsUSA",
+      role: "Delegate",
+      description: "Delegate in the SkillsUSA Regionals and States Candidacy.",
       fullDescription: desc4,
       period: "2023 - Present", 
       icon: PenTool,
       metrics: ["15 Articles", "10K+ Readers", "Monthly"],
       achievements: [
-        "1st Proffesional IT Experience",
+        "1st Professional IT Experience",
         "Learned Work Ethic & Professionalism",
         "How to troubleshoot technical issues",
         "Exposure to IT environment"
       ],
-      // Add your images here - these will appear in the modal carousel
       images: [
         "https://i.imgur.com/7HF6iQw.jpeg"
       ]
