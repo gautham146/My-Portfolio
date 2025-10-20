@@ -81,7 +81,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
     {
       title: "SkillsUSA",
       role: "Delegate",
-      description: "Delegate in the SkillsUSA Regionals and States Candidacy.",
+      description: "Delegate in the SkillsUSA Regionals and States Candidacy. I was able to learn key career skills there too.",
       fullDescription: desc4,
       period: "2023 - Present", 
       icon: PenTool,
