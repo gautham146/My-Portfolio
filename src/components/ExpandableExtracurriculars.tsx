@@ -78,16 +78,21 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
         "https://i.imgur.com/oxp4bmT.jpeg"
       ]
     },
-    {
-      title: "SkillsUSA",
-      role: "Delegate",
-      description: "Delegate in the SkillsUSA Regionals and States Candidacy. I was able to learn key career skills there too.",
+        {
+      title: "IT Internship",
+      role: "Intern",
+      description: "IT Intern at the New Albany-Plain Local School District, assisting with managing district-issued devices, troubleshooting tech issues, and supporting day-to-day IT operations.",
       fullDescription: desc4,
       period: "2023 - Present", 
       icon: PenTool,
       metrics: ["15 Articles", "10K+ Readers", "Monthly"],
-      
+      achievements: [
+        "1st Proffesional IT Experience",
+        "Learned Work Ethic & Professionalism",
+        "How to troubleshoot technical issues",
+        "Exposure to IT environment"
       ],
+      // Add your images here - these will appear in the modal carousel
       images: [
         "https://i.imgur.com/7HF6iQw.jpeg"
       ]
