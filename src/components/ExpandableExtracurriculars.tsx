@@ -86,11 +86,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
       period: "2023 - Present", 
       icon: PenTool,
       metrics: ["15 Articles", "10K+ Readers", "Monthly"],
-      achievements: [
-        "1st Professional IT Experience",
-        "Learned Work Ethic & Professionalism",
-        "How to troubleshoot technical issues",
-        "Exposure to IT environment"
+      
       ],
       images: [
         "https://i.imgur.com/7HF6iQw.jpeg"
