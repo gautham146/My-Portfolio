@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Award } from 'lucide-react';
-import { ImageWithFallback } from './Images/ImageWithFallback';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const SimpleCertificates = () => {
   const certificates = [
