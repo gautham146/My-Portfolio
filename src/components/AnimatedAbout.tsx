@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './Images/ImageWithFallback';
 
 const AnimatedAbout = () => {
   const subtitle1Text = "Passionate about creating digital experiences that matter.";
