@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ImageWithFallback } from './ImageWithFallback.tsx';
+import { ImageWithFallback } from './ImageWithFallback';
+
 
 const About = () => {
   const aboutImage = "https://i.imgur.com/rHLj6tE.jpeg";
