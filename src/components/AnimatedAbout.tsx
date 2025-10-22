@@ -1,14 +1,8 @@
 import React from 'react';
-import { motion } from 'motion/react';
-import { ImageWithFallback } from './Images/ ImageWithFallback';
+import { motion } from 'framer-motion';
+import { ImageWithFallback } from './Images/ImageWithFallback';
 
 const About = () => {
-  const subtitle1Text = "Passionate about creating digital experiences that matter.";
-  const subtitle2Text = "With expertise spanning frontend development, user experience design, and emerging web technologies.";
-  const paragraph1Text = "I'm a creative developer with a deep appreciation for clean, functional design. My approach combines technical precision with aesthetic sensibility, creating solutions that are both beautiful and purposeful.";
-  const paragraph2Text = "I bring ideas to life through code that prioritizes performance, accessibility, and user delight. Every project is an opportunity to push boundaries and explore new possibilities in digital craftsmanship.";
-
-  
   const aboutImage = "https://i.imgur.com/rHLj6tE.jpeg";
 
   return (
