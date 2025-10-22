@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Users, Award, BookOpen, PenTool, X } from 'lucide-react';
 import { ImageWithFallback } from './ImageWithFallback';
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 const desc1 = "I’m a member of FRC Team 5667 – The Digital Eagles, where I collaborate with teammates to design, build, and program competitive robots for the FIRST Robotics Competition. Being part of the team has given me hands-on experience working with real-world engineering and technology challenges while learning how to bring ideas from concept to creation. Throughout my time in robotics, I’ve contributed to building and testing mechanical components, helping with wiring and sensor integration, and assisting the programming team in refining autonomous and teleoperated robot functions. Working together under tight deadlines taught me how to communicate effectively and think critically under pressure."
