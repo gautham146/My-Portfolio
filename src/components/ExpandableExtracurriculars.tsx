@@ -220,12 +220,6 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
                     className="w-full h-full object-cover"
                   />
                   
-                  {/* Icon indicator */}
-                  <div className="absolute top-3 right-3 md:top-4 md:right-4 w-8 h-8 md:w-10 md:h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg group-hover:bg-gray-800 transition-colors duration-300">
-                    <activity.icon className="w-4 h-4 md:w-5 md:h-5 text-gray-700 group-hover:text-white transition-colors duration-300" />
-                  </div>
-                </div>
-
                 {/* Card Info */}
                 <div className="p-4 md:p-6">
                   <h3 className="text-lg md:text-xl text-gray-900 mb-2 group-hover:text-gray-700 transition-colors duration-300" style={{ fontFamily: "'Playfair Display', serif" }}>
