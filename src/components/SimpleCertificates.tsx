@@ -7,18 +7,18 @@ const SimpleCertificates = () => {
   const certificates = [
     {
       id: 1,
-      title: "Certificate 1",
-      issuer: "Issuing Organization",
-      date: "January 2025",
-      description: "Brief description of the certification",
+      title: "Tech +",
+      issuer: "CompTIA",
+      date: "May 21st, 2025",
+      description: "The fundamentals of IT.",
       image: "https://i.imgur.com/St7naqV.png"
     },
     {
       id: 2,
-      title: "Certificate 2",
-      issuer: "Issuing Organization",
-      date: "December 2024",
-      description: "Brief description of the certification",
+      title: "Intro to AI",
+      issuer: "Coursera",
+      date: "June 2025",
+      description: "Basics about Artificial Intelligence.",
       image: "https://i.imgur.com/SMtAdoF.jpeg"
     }
   ];
