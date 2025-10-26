@@ -80,15 +80,15 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
       ]
     },
         {
-      title: "IT Internship",
-      role: "Intern",
-      description: "IT Intern at the New Albany-Plain Local School District, assisting with managing district-issued devices, troubleshooting tech issues, and supporting day-to-day IT operations.",
+      title: "SkillsUSA",
+      role: "Delegate",
+      description: "Delegate for Regionals and States for SkillsUSA. In charge of voting for the 2025 candidates.",
       fullDescription: desc4,
-      period: "2023 - Present", 
+      period: "2024-2025", 
       icon: PenTool,
       metrics: ["15 Articles", "10K+ Readers", "Monthly"],
       achievements: [
-        "1st Proffesional IT Experience",
+        "1st Profesional IT Experience",
         "Learned Work Ethic & Professionalism",
         "How to troubleshoot technical issues",
         "Exposure to IT environment"
