@@ -127,7 +127,7 @@ const MinimalistHero = () => {
             className="text-base md:text-lg lg:text-xl text-gray-500 leading-relaxed mb-12 md:mb-16 font-normal"
             style={{ fontFamily: "'EB Garamond', serif" }}
           >
-          Passionate about technology and the financial markets, striving to gain more knowledge in any field. 
+          A tech enthusiast passionate about technology and financial markets, constantly pushing boundaries to learn, build, and innovate. 
 
           </p>
 
