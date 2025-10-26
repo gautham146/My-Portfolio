@@ -219,7 +219,10 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
                     alt={activity.title}
                     className="w-full h-full object-cover"
                   />
-                  
+                                    
+
+                </div>
+
                 {/* Card Info */}
                 <div className="p-4 md:p-6">
                   <h3 className="text-lg md:text-xl text-gray-900 mb-2 group-hover:text-gray-700 transition-colors duration-300" style={{ fontFamily: "'Playfair Display', serif" }}>
