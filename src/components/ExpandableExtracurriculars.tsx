@@ -93,9 +93,8 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
         "How to troubleshoot technical issues",
         "Exposure to IT environment"
       ],
-      // Add your images here - these will appear in the modal carousel
       images: [
-        "https://i.imgur.com/7HF6iQw.jpeg"
+        "https://i.imgur.com/L7T8Ik4.jpeg"
       ]
     }
   ];
@@ -131,7 +130,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
     };
   }, []);
 
-  // Auto-rotate images in modal every 4 seconds
+  // Auto-rotate images in modal
   useEffect(() => {
     if (selectedActivity === null) return;
     
@@ -212,7 +211,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
             >
               <div className="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-xl transition-all duration-500">
                 
-                {/* Static Image Preview - Mobile Optimized */}
+                {/* Image Preview */}
                 <div className="h-40 md:h-48 overflow-hidden relative bg-gray-50">
                   <ImageWithFallback
                     src={activity.images[0]}
@@ -304,12 +303,12 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
                         </div>
                       </div>
 
-                      {/* Main Content - Mobile Optimized with proper scrolling */}
+                      {/* Main Content */}
                       <div className="pt-16 md:pt-24 h-full overflow-y-auto overscroll-contain"
                         style={{ WebkitOverflowScrolling: 'touch' }}
                       >
                         
-                        {/* Image Carousel - Mobile Optimized */}
+                        {/* Image Carousel */}
                         <div className="w-full h-[250px] md:h-[400px] lg:h-[500px] relative overflow-hidden px-4 md:px-12 pt-4 md:pt-6 bg-gray-50">
                           {/* Carousel Images */}
                           <div className="relative w-full h-full">
@@ -331,7 +330,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
                             ))}
                           </div>
 
-                          {/* Carousel Controls - Only show if multiple images */}
+                          {/* Carousel Controls */}
                           {activity.images.length > 1 && (
                             <>
                               {/* Navigation Arrows */}
@@ -392,7 +391,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
                           )}
                         </div>
 
-                        {/* Content Below Image - Mobile Optimized */}
+                        {/* Content Below Image */}
                         <div className="max-w-6xl mx-auto px-4 md:px-8 lg:px-12 py-6 md:py-8">
                           
                           {/* Overview */}
@@ -405,7 +404,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
                             </p>
                           </div>
 
-                          {/* Key Achievements and Skills Side by Side */}
+                          {/* Key Achievements */}
                           <div className="grid md:grid-cols-2 gap-6 md:gap-8 pb-6 md:pb-8">
                             
                             {/* Key Achievements */}
