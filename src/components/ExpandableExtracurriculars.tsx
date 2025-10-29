@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Users, Award, BookOpen, PenTool, X } from 'lucide-react';
+import { Users, X } from 'lucide-react';
 import { ImageWithFallback } from './ImageWithFallback';
 
 
@@ -49,7 +49,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
       description: "Helped plan community events to promote cultural awareness and engagement.",
       period: "2024 - 2025",
       fullDescription: desc2,
-      icon: Award,
+      icon: Users,
       metrics: ["8 Competitions", "3 Awards", "2 Years"],
       achievements: [
         "Planned and executed 3 major community events",
@@ -67,7 +67,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
       description: "2 year member of the New Albany High School Tennis Team, developing discipline, teamwork, and focus through competitive training and matches.",
       fullDescription: desc3,
       period: "2022 - 2024",
-      icon: BookOpen,
+      icon: Users,
       metrics: ["100+ Students", "5 Programs", "24 Months"],
       achievements: [
         "Commitment & Consistency",
@@ -85,7 +85,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
       description: "Delegate for Regionals and States for SkillsUSA. In charge of voting for the 2025 candidates.",
       fullDescription: desc4,
       period: "2024-2025", 
-      icon: PenTool,
+      icon: Users,
       metrics: ["15 Articles", "10K+ Readers", "Monthly"],
       achievements: [
         "1st Profesional IT Experience",
