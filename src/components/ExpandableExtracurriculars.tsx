@@ -435,22 +435,7 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
           )}
         </AnimatePresence>
 
-        {/* Philosophy section */}
-        <motion.div
-          className="mt-16 md:mt-24 text-center"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          viewport={{ once: true }}
-        >
-          <div className="max-w-3xl mx-auto px-4">
-            <p className="text-base md:text-xl text-gray-600 font-light leading-relaxed italic">
-              "Leadership isn't about being in charge. It's about taking care of those in your charge 
-              and creating opportunities for others to grow."
-            </p>
-            <div className="w-12 h-px bg-gray-400 mx-auto mt-6 md:mt-8" />
-          </div>
-        </motion.div>
+        
       </div>
 
       {/* Background decorations */}
