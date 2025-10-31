@@ -88,10 +88,10 @@ const ExpandableExtracurriculars = ({ onModalChange }: ExpandableExtracurricular
       icon: Users,
       metrics: ["15 Articles", "10K+ Readers", "Monthly"],
       achievements: [
-        "1st Profesional IT Experience",
-        "Learned Work Ethic & Professionalism",
-        "How to troubleshoot technical issues",
-        "Exposure to IT environment"
+        "Networking with others",
+        "Learning career soft skills",
+        "Teamwork",
+        "Exposure to professional environment"
       ],
       images: [
         "https://i.imgur.com/L7T8Ik4.jpeg"
