@@ -71,7 +71,7 @@ const About = () => {
                   transition={{ duration: 0.8, delay: 0.4 }}
                   viewport={{ once: true }}
                 >
-                  Outside of class, I enjoy trading and studying financial markets, experimenting with new tech projects, and diving into web development, motion design, and automation tools. I love blending creativity with logic — whether that’s building something interactive on the web or analyzing data to spot market trends.
+                  Outside of class, I enjoy trading and studying financial markets, experimenting with new tech projects, hackathons, and diving into web development, motion design, and automation tools. I love blending creativity with logic — whether that’s building something interactive on the web or analyzing data to spot market trends.
                   When I’m not coding or researching, you’ll probably find me working out, playing tennis, or learning about new ways to grow both technically and personally.
                 </motion.h4>
                 
